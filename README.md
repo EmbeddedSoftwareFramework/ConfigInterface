@@ -6,7 +6,7 @@ An application sends config publisher message requesting latest config when star
 An instance of config publisher needs to be running if other applications depend on it, therefore config publisher should have high priority when starting target/host.
 
 ## Data structure in files
-Recipe files should be constructed with valid JSON syntax. Each "config variable" needs to provide the following values: value, description. An example below for recipe test.json:
+Recipe files should be constructed with valid JSON syntax. Each "config variable" needs to provide the following values: value, description. An example below for recipe applicationName.json:
 ```json
 {
     "configVariableName": {
